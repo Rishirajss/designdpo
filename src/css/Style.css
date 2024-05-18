@@ -1,0 +1,283 @@
+:root{
+    --colorSetfirst: #ebf8fc;
+    --colorSetsecound: #fca120;
+    --colorSetthird: #315399;
+    --colorSetfouth: #fef1f1;
+    --colorSetfifth: #e74c3c;
+}
+
+body::-webkit-scrollbar{
+    width: 4px;
+}
+body::-webkit-scrollbar-track{
+    background-color: rgb(219, 218, 218);
+}
+body::-webkit-scrollbar-thumb{
+    background-color: var(--colorSetthird);
+    border-radius: 30% !important;
+    height: 1px !important;
+    border: 1px solid var(--colorSetthird);
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.topbackground{
+    background-color: var(--colorSetfirst);
+}
+.icon-size{
+    font-size: 19px;
+}
+.crown{
+    color: var(--colorSetsecound);
+}
+.footer{
+    background-color: var(--colorSetthird);
+}
+.footer-auth{
+    background-color: var(--colorSetfirst);   
+}
+.main-part{
+    background-color: var(--colorSetfirst);
+    padding-top: 89px;
+    padding-bottom: 89px;
+}
+.main-part h1, .main-part span{
+    font-size: 62px;
+    line-height: 50px;
+}
+.explore-btn button{
+    background-color: var(--colorSetthird);
+}
+.slider-styling{
+    border-radius: 10%;
+    filter: drop-shadow(0 0 5px rgba(0, 0, 0, .5));
+}
+.slider-styling div{
+    border-radius: 10%;
+}
+.slidearrow{
+    position: relative;
+}
+.backwardArrow{
+    position: absolute;
+    top: 144px;
+    left: -2px;
+    z-index: 999;
+    cursor: pointer;
+}
+.forwardArrow{
+    position: absolute;
+    top: 144px;
+    right: -2px;
+    z-index: 999;
+    cursor: pointer;
+}
+.benifites-main{
+    background-color: var(--colorSetfouth);
+}
+.benefits_img_style{
+    border-radius: 50% !important;
+    border: 0.1px solid white;
+}
+.benefits_img_style img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5% !important;
+    filter: drop-shadow(0 0 5px rgba(0, 0, 0, .5));
+}
+.newBtn{
+    background-color: var(--colorSetthird) !important;
+}
+.benefits_box_img{
+    top: -45px;
+    right: -116px;
+}
+.benefits_box_img1{
+    top: -45px;
+    left: -113px;
+}
+.benefits_box_img2{
+    top: 70px;
+    left: -113px;
+}
+.designhome-main{
+    background: linear-gradient(0deg, #fff 43%, #315399 0);
+    background-size: 100% !important;
+}
+.designhome-main h2{
+    color: var(--colorSetthird);
+}
+.main-title-img{
+    border: 10px solid white;
+    box-shadow: 0 4px 40px rgba(0, 160, 210, .3);
+    border-radius: 30px;
+}
+.design-icon{
+    left: 0px;
+    top: -90px;
+}
+.explore-card{
+    border-radius: 10px;
+    border: 0.1px solid rgb(233, 233, 233);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, .06) !important;
+    text-align: center;
+    width: 180px !important;
+}
+.explore-card img{
+    border-radius: 10px;
+    width: 100%;
+}
+.explore-slide-arrow{
+    position: relative;
+}
+.explore-backwardArrow{
+    position: absolute;
+    cursor: pointer;
+    top: 78px;
+    left: -63px;
+    border: 0.1px solid #d9d5d5;
+    background: white;
+    border-radius: 50px;
+    padding: 5px 10px;
+}
+.explore-forwardArrow{
+    position: absolute;
+    cursor: pointer;
+    top: 78px;
+    right: -63px;
+    border: 0.1px solid #d9d5d5;
+    background: white;
+    border-radius: 50px;
+    padding: 5px 10px;
+}
+.explore-btn button{
+    background-color: var(--colorSetthird);
+}
+.explore-btn button:hover{
+    background-color: white;
+    color: var(--colorSetthird);
+}
+.trending-main{
+    background-color: var(--colorSetfirst);
+}
+.trending-option {
+    font-weight: 500;
+    font-size: 14px;
+    color: #6d7175;
+    cursor: pointer;
+    padding: 8px 24px;
+    background: #fff;
+    border: 1px solid #dddfe3;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, .06);
+    border-radius: 50px;
+    transition: .3s;
+    width: -moz-max-content;
+    width: max-content;
+}   
+
+.trending-menu-tabs::-webkit-scrollbar{
+    height: 6px;
+}
+.trending-menu-tabs::-webkit-scrollbar-track{
+    background-color: rgb(219, 218, 218);
+}
+.trending-menu-tabs::-webkit-scrollbar-thumb{
+    background-color: rgb(161, 161, 161);
+    border-radius: 10px !important;
+    height: 1px !important;
+    border: 1px solid gray;
+}
+.trending-menu-tabs ul>li>span:hover {
+    border-color: #ec6b6c;
+    color: #ec6b6c;
+}
+.trending-tabs-img span{
+   visibility: hidden;
+    left: 10px;
+    top: -30px;
+}
+.trending-tabs-img>.row>.col-3>img:hover{
+    filter: brightness(0.8);
+    transition: .3s;
+    cursor: pointer;
+}
+.trending-tabs-img>.row>.col-3:hover span{
+    visibility: visible;
+    transition: .3s;
+}
+
+.about-para{
+    color: gray;
+}
+.about-list-style li::marker{
+    color: var(--colorSetfifth);
+}
+.conatact-icon{
+    border-radius: 50px;
+    background: var(--colorSetthird);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+}
+
+.iconStyle{
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: white;
+}
+.conatct-frm{
+    background-color: #fff;
+    border: 1px solid #dddfe3 !important;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .04), 0 3px 5px rgba(0, 0, 0, .06);
+    border-radius: 6px;
+}
+.outlined-input{
+    position: relative;
+}
+.outlined-input input, textarea, select{  
+    font-size: 1rem;
+    width: 100%;
+    outline: none;
+    border: 1px solid #dddfe3 !important;
+    border-radius: 6px;
+    padding: 10px 5px;
+    color: #202223;
+    transition: .1s ease-out;
+}    
+.outlined-input label {
+    position: absolute;
+    font-size: 1rem;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #fff;
+    color: #8c9196;
+    padding: 0 .3rem;
+    margin: 0 .5rem;
+    transition: .1s ease-out;
+    transform-origin: left top;
+    pointer-events: none;
+}
+.outlined-input input:focus, .outlined-input textarea:focus, .outlined-input select:focus{
+    border-color: #315399 !important;
+}
+.outlined-input input:focus+label, .outlined-input textarea:focus+label, .outlined-input select:focus+label {
+    color: #315399;
+    font-weight: bold;
+    top: 0;
+    transform: translateY(-50%) scale(.9);
+}
+.contact-frm-button{
+    background: var(--colorSetthird);
+}
+.explore-tabs-name{
+    color: var(--colorSetthird) !important;
+}
+.explore-sign-in-btn{
+    background-color: var(--colorSetthird) !important;
+    color: white;
+}
