@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from '../comman/Header'
 import Footer from '../comman/Footer'
-import { Box, Tab, Tabs, Typography } from '@material-ui/core';
+import { Box, Tab, Tabs, Typography } from '@mui/material';
 import PropTypes from 'prop-types';
 import exportimg1 from '../img/Explore images/explore_gallery_1.jpg'
 import exportimg2 from '../img/Explore images/explore_gallery_2.jpg'
