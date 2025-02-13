@@ -20,13 +20,7 @@ import exportimg14 from '../img/Explore images/explore_gallery_14.jpg'
 import exportimg15 from '../img/Explore images/explore_gallery_15.jpg'
 import exportimg16 from '../img/Explore images/explore_gallery_16.jpg'
 import exportimg17 from '../img/Explore images/explore_gallery_17.jpg'
-import exportimg18 from '../img/Explore images/explore_gallery_18.jpg'
-import exportimg19 from '../img/Explore images/explore_gallery_19.jpg'
-import exportimg20 from '../img/Explore images/explore_gallery_20.jpg'
 import exportimg21 from '../img/Explore images/explore_gallery_21.jpg'
-import exportimg22 from '../img/Explore images/explore_gallery_22.jpg'
-import exportimg23 from '../img/Explore images/explore_gallery_23.jpg'
-import exportimg24 from '../img/Explore images/explore_gallery_24.jpg'
 import exportimg25 from '../img/Explore images/explore_gallery_25.jpg'
 
 function CustomTabPanel(props) {

@@ -28,7 +28,6 @@ export default function Explorecatgory() {
         {
           breakpoint: 1024,
           settings: {
-            dots: false,
             arrows: true,
             slidesToShow: 3,
             slidesToScroll: 3,

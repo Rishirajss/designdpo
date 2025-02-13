@@ -2,7 +2,7 @@ import React from 'react'
 import Header from '../comman/Header'
 import Footer from '../comman/Footer'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope, faLocation, faLocationDot, faMobileButton } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope, faLocationDot, faMobileButton } from '@fortawesome/free-solid-svg-icons'
 
 export default function Contact() {
   return (
